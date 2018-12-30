@@ -1,6 +1,6 @@
 local LibraryTemplate = Class.new()
 -- Version of the library template
-LibraryTemplate.TEMPLATE_VERSION = "1.0.0"
+LibraryTemplate.TEMPLATE_VERSION = "1.1.0"
 -- Default minimum version of the mod loader. Change this in your library, not here.
 LibraryTemplate.modApiVersion = "2.3.0"
 
@@ -90,7 +90,7 @@ end
 	Perform initialization of this table here.
 --]]
 function LibraryTemplate:initInternal()
-	error("initInternal not implemeted")
+	error("initInternal not implemented")
 end
 
 --[[
