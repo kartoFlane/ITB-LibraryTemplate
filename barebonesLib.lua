@@ -4,7 +4,7 @@
 
 local LibraryTemplate = require("libraryTemplate")
 
-local BarebonesLib = LibraryTemplate.inherit()
+local BarebonesLib = Class.inherit(LibraryTemplate)
 BarebonesLib.version = ""
 BarebonesLib.name = ""
 BarebonesLib.internalTableName = ""

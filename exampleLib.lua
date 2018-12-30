@@ -6,7 +6,7 @@
 local LibraryTemplate = require("libraryTemplate")
 
 -- Create a class for our own library by extending the template class
-local ExampleLib = LibraryTemplate.inherit()
+local ExampleLib = Class.inherit(LibraryTemplate)
 
 -- Define "static" fields that all instances will be able to access:
 
